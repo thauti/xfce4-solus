@@ -1,0 +1,23 @@
+name       : libxfce4ui
+version    : 4.13.7
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/libxfce4ui-4.13.7.tar.bz2 : b932359b47a5f8bdeae4441728abd19980c1a77f9912bc6cf8a50028b0687b08
+license    : GPL-2.0-or-later
+component  : desktop.xfce.core
+summary    : Commonly used Xfce widgets among Xfce applications
+description: |
+    It is used to share commonly used Xfce widgets among the Xfce applications.
+builddeps  :
+    - pkgconfig(libxfce4util-1.0)
+    - pkgconfig(libxfconf-0)
+    - pkgconfig(libstartup-notification-1.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libglade-2.0)
+
+setup      : |
+    %configure --disable-static --enable-gtk3
+build      : |
+    %make
+install    : |
+    %make_install

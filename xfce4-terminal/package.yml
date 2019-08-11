@@ -1,0 +1,19 @@
+name       : xfce4-terminal
+version    : 0.8.8
+release    : 1
+source     :
+    - http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.8.tar.bz2 : 8fba6a60d3a0fee07417ad7c36bf78cc45be1b27f0759e125051aa73f08487fd
+license    : GPL-2.0-or-later
+component  : desktop.xfce.apps
+summary    : Xfce4 Terminal is a GTK+3 terminal emulator.
+description: |
+     Xfce4 Terminal is a GTK+3 terminal emulator.
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(vte-2.91)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

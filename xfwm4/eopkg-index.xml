@@ -1,0 +1,1060 @@
+<PISI>
+    <Package>
+        <Name>xfce4-session</Name>
+        <Summary xml:lang="en">session</Summary>
+        <Description xml:lang="en">session</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="8">libice</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="21">polkit</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency releaseFrom="16">libwnck</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1379037</InstalledSize>
+        <PackageSize>309555</PackageSize>
+        <PackageHash>999af3dfabc2cb28104193e3ca17e78e95b2408f</PackageHash>
+        <PackageURI>xfce4-session-4.13.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-session</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon-docs</Name>
+        <Summary xml:lang="en">Documentation for garcon</Summary>
+        <Description xml:lang="en">garcon</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.6.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>410835</InstalledSize>
+        <PackageSize>33710</PackageSize>
+        <PackageHash>c8077cb963b5a6116bf891b88f132c02acac3940</PackageHash>
+        <PackageURI>garcon-docs-0.6.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon-devel</Name>
+        <Summary xml:lang="en">Development files for garcon</Summary>
+        <Description xml:lang="en">garcon</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3-devel</Dependency>
+            <Dependency release="1">garcon</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui-devel</Dependency>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency releaseFrom="24">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>garcon-gtk2-1</PkgConfig>
+            <PkgConfig>garcon-1</PkgConfig>
+            <PkgConfig>garcon-gtk3-1</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.6.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>68653</InstalledSize>
+        <PackageSize>8948</PackageSize>
+        <PackageHash>dbe4237816f79d5579509e71f633c80e25d3bd0a</PackageHash>
+        <PackageURI>garcon-devel-0.6.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui</Name>
+        <Summary xml:lang="en">xfce</Summary>
+        <Description xml:lang="en">xfce</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="11">libxcomposite</Dependency>
+            <Dependency releaseFrom="13">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="6">libstartup-notification</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="12">libxinerama</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="12">libxdamage</Dependency>
+            <Dependency releaseFrom="12">libxext</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1472962</InstalledSize>
+        <PackageSize>259388</PackageSize>
+        <PackageHash>1d2110399c25449d0178bc072721454fe835d649</PackageHash>
+        <PackageURI>libxfce4ui-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui-devel</Name>
+        <Summary xml:lang="en">Development files for libxfce4ui</Summary>
+        <Description xml:lang="en">xfce</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3-devel</Dependency>
+            <Dependency releaseFrom="1">xfconf-devel</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency release="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="24">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4ui-1</PkgConfig>
+            <PkgConfig>libxfce4ui-2</PkgConfig>
+            <PkgConfig>libxfce4kbd-private-3</PkgConfig>
+            <PkgConfig>libxfce4kbd-private-2</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>78182</InstalledSize>
+        <PackageSize>8084</PackageSize>
+        <PackageHash>3f88a06c3c4f8a947c387a383226afdb298e6f0d</PackageHash>
+        <PackageURI>libxfce4ui-devel-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel-docs</Name>
+        <Summary xml:lang="en">Documentation for xfce4-panel</Summary>
+        <Description xml:lang="en">xfce4-panel</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>456135</InstalledSize>
+        <PackageSize>40388</PackageSize>
+        <PackageHash>418fdb3139e970ae36338283693c516275731b93</PackageHash>
+        <PackageURI>xfce4-panel-docs-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo-docs</Name>
+        <Summary xml:lang="en">Documentation for exo</Summary>
+        <Description xml:lang="en">exo</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.12.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1141126</InstalledSize>
+        <PackageSize>205652</PackageSize>
+        <PackageHash>75e973d1c9dd0d0f28e479e05052a7de437bc35e</PackageHash>
+        <PackageURI>exo-docs-0.12.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf-docs</Name>
+        <Summary xml:lang="en">Documentation for xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>285308</InstalledSize>
+        <PackageSize>25235</PackageSize>
+        <PackageHash>07bb611bbcf3fd912d3dba62a2d6654330b24c33</PackageHash>
+        <PackageURI>xfconf-docs-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfwm4</Name>
+        <Summary xml:lang="en">xfwm4</Summary>
+        <Description xml:lang="en">xfwm4</Description>
+        <PartOf>xfwm4</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="16">libwnck</Dependency>
+            <Dependency releaseFrom="11">libxcomposite</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="6">libstartup-notification</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="4">libepoxy</Dependency>
+            <Dependency releaseFrom="12">libxinerama</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="12">libxdamage</Dependency>
+            <Dependency releaseFrom="12">libxext</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2088032</InstalledSize>
+        <PackageSize>441414</PackageSize>
+        <PackageHash>2b5a7c8138ea320862e08e2c294dd9bf8bc3c7f5</PackageHash>
+        <PackageURI>xfwm4-4.13.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfwm4</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-settings</Name>
+        <Summary xml:lang="en">settings</Summary>
+        <Description xml:lang="en">settings</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="13">libxcursor</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3183265</InstalledSize>
+        <PackageSize>592855</PackageSize>
+        <PackageHash>72cf8c4560063859df59ecc9390de1fe20dfbab8</PackageHash>
+        <PackageURI>xfce4-settings-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-settings</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo-devel</Name>
+        <Summary xml:lang="en">Development files for exo</Summary>
+        <Description xml:lang="en">exo</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3-devel</Dependency>
+            <Dependency release="1">exo</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency releaseFrom="24">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>exo-2</PkgConfig>
+            <PkgConfig>exo-1</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.12.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>183693</InstalledSize>
+        <PackageSize>16209</PackageSize>
+        <PackageHash>0a98608fe792670b4bc13cf7b0417c27f666ef57</PackageHash>
+        <PackageURI>exo-devel-0.12.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>thunar</Name>
+        <Summary xml:lang="en">Thunar</Summary>
+        <Description xml:lang="en">Thunar</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="6">libgudev</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="18">libpcre</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="1">xfce4-panel</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>1.8.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>6147624</InstalledSize>
+        <PackageSize>1223420</PackageSize>
+        <PackageHash>66e2976d73035c7e10c3e9f7c3a8b8aae8f60357</PackageHash>
+        <PackageURI>thunar-1.8.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>thunar</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>thunar-devel</Name>
+        <Summary xml:lang="en">Development files for thunar</Summary>
+        <Description xml:lang="en">Thunar</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3-devel</Dependency>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency release="1">thunar</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>thunarx-3</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>1.8.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>49059</InstalledSize>
+        <PackageSize>8013</PackageSize>
+        <PackageHash>29a4bd890b65f2be30289a0b54518d4fd2b278db</PackageHash>
+        <PackageURI>thunar-devel-1.8.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>thunar</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>thunar-docs</Name>
+        <Summary xml:lang="en">Documentation for thunar</Summary>
+        <Description xml:lang="en">Thunar</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>1.8.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>472847</InstalledSize>
+        <PackageSize>138185</PackageSize>
+        <PackageHash>b7e84c05bdaebbe81a34e8effcea921377fd0c22</PackageHash>
+        <PackageURI>thunar-docs-1.8.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>thunar</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui-docs</Name>
+        <Summary xml:lang="en">Documentation for libxfce4ui</Summary>
+        <Description xml:lang="en">xfce</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>301674</InstalledSize>
+        <PackageSize>31303</PackageSize>
+        <PackageHash>69239a614ffe95888acab8828a9fed549b65c5db</PackageHash>
+        <PackageURI>libxfce4ui-docs-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>iceauth</Name>
+        <Summary xml:lang="en">iceauth</Summary>
+        <Description xml:lang="en">iceauth</Description>
+        <PartOf>xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libice</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>1.0.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>34924</InstalledSize>
+        <PackageSize>13808</PackageSize>
+        <PackageHash>38ec12f169996658dd1799087f0648a0743906a3</PackageHash>
+        <PackageURI>iceauth-1.0.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>iceauth</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util-docs</Name>
+        <Summary xml:lang="en">Documentation for libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>234814</InstalledSize>
+        <PackageSize>25889</PackageSize>
+        <PackageHash>35d4a64dad7fd26d0a45b1acd68be7029ec47fe1</PackageHash>
+        <PackageURI>libxfce4util-docs-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util</Name>
+        <Summary xml:lang="en">Libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>desktop.library</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>557799</InstalledSize>
+        <PackageSize>89984</PackageSize>
+        <PackageHash>c8e533c1cd79ab4b09f1eaccdfd5a76971c292f8</PackageHash>
+        <PackageURI>libxfce4util-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel</Name>
+        <Summary xml:lang="en">xfce panel</Summary>
+        <Description xml:lang="en">xfce4-panel</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="11">libxcomposite</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="13">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="16">libwnck</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="12">libxinerama</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="12">libxdamage</Dependency>
+            <Dependency releaseFrom="12">libxext</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3618798</InstalledSize>
+        <PackageSize>727517</PackageSize>
+        <PackageHash>7cdf70c90606134b7b9c0930f212bea18ecb5e7a</PackageHash>
+        <PackageURI>xfce4-panel-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel-devel</Name>
+        <Summary xml:lang="en">Development files for xfce4-panel</Summary>
+        <Description xml:lang="en">xfce4-panel</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="85">libgtk-3-devel</Dependency>
+            <Dependency release="1">xfce4-panel</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency releaseFrom="24">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4panel-1.0</PkgConfig>
+            <PkgConfig>libxfce4panel-2.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>159641</InstalledSize>
+        <PackageSize>15993</PackageSize>
+        <PackageHash>d442f70cef7bb8009992cf55f1345e44385fb259</PackageHash>
+        <PackageURI>xfce4-panel-devel-4.13.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo</Name>
+        <Summary xml:lang="en">exo</Summary>
+        <Description xml:lang="en">exo</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="11">libxcomposite</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="13">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="12">libxinerama</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="12">libxdamage</Dependency>
+            <Dependency releaseFrom="12">libxext</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.12.7</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2614406</InstalledSize>
+        <PackageSize>497192</PackageSize>
+        <PackageHash>0b03a521981d13b4dbc03400f0b352c4b1f2c818</PackageHash>
+        <PackageURI>exo-0.12.7-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon</Name>
+        <Summary xml:lang="en">garcon</Summary>
+        <Description xml:lang="en">garcon</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="11">libxcomposite</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="13">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="31">pango</Dependency>
+            <Dependency releaseFrom="85">libgtk-3</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="41">libcairo</Dependency>
+            <Dependency releaseFrom="13">libxi</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="37">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="12">libxinerama</Dependency>
+            <Dependency releaseFrom="21">libatk</Dependency>
+            <Dependency releaseFrom="12">libxdamage</Dependency>
+            <Dependency releaseFrom="12">libxext</Dependency>
+            <Dependency releaseFrom="11">libxrandr</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>0.6.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>471189</InstalledSize>
+        <PackageSize>102768</PackageSize>
+        <PackageHash>e69eee3a4130c13a2497a00582ba1487f83998fb</PackageHash>
+        <PackageURI>garcon-0.6.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf</Name>
+        <Summary xml:lang="en">xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>787571</InstalledSize>
+        <PackageSize>149507</PackageSize>
+        <PackageHash>9145377844565a31b8ee48734c0696e171c9c7c2</PackageHash>
+        <PackageURI>xfconf-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf-devel</Name>
+        <Summary xml:lang="en">Development files for xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency release="1">xfconf</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfconf-0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>18213</InstalledSize>
+        <PackageSize>4434</PackageSize>
+        <PackageHash>68fb16ab04b9ba93b4f565b2ca676ef35e74780a</PackageHash>
+        <PackageURI>xfconf-devel-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util-devel</Name>
+        <Summary xml:lang="en">Development files for libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency release="1">libxfce4util</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4util-1.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>38353</InstalledSize>
+        <PackageSize>7460</PackageSize>
+        <PackageHash>1eec0b822888f06cf76b3f5392a6100f8af8805c</PackageHash>
+        <PackageURI>libxfce4util-devel-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>

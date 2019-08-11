@@ -1,0 +1,18 @@
+name       : garcon
+version    : 0.6.4
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/garcon-0.6.4.tar.bz2 : d75e4753037a74733c07b71b8db7a656d869869f0f107f6411a306bbc87a762d
+license    : GPL-2.0-or-later
+component  : desktop.xfce.core
+summary    : The Garcon package contains a freedesktop.org compliant menu implementation based on GLib and GIO. 
+description: |
+    The Garcon package contains a freedesktop.org compliant menu implementation based on GLib and GIO.
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

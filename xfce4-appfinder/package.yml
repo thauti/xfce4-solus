@@ -1,0 +1,19 @@
+name       : xfce4-appfinder
+version    : 4.13.5
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/xfce4-appfinder-4.13.5.tar.bz2 : 989f79eddc89c7d324d6d68878faf39292f7342a618a0711f0eb65634ed83960
+license    : GPL-2.0-or-later
+component  : desktop.xfce.utils
+summary    :  The Application Finder is a program to find and launch installed applications on your system, and quickly execute commands. 
+description: |
+    The Application Finder is a program to find and launch installed applications on your system, and quickly execute commands. 
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(garcon-gtk3-1)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

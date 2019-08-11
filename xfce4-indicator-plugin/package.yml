@@ -1,0 +1,20 @@
+name       : xfce4-indicator-plugin
+version    : 2.3.4
+release    : 1
+source     :
+    - http://archive.xfce.org/src/panel-plugins/xfce4-indicator-plugin/2.3/xfce4-indicator-plugin-2.3.4.tar.bz2 : 02773722cf99113bc64cc399df47c3a639e206a864c6995be68fe8281076582e
+license    : GPL-2.0-or-later
+component  : desktop.xfce.plugins
+summary    : Plugin to display information from applications in the Xfce4 panel
+description: |
+    Plugin to display information from applications in the Xfce4 panel
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(libxfce4panel-2.0)
+    - pkgconfig(indicator3-0.4)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

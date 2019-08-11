@@ -1,0 +1,23 @@
+name       : xfdesktop
+version    : 4.13.6
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/xfdesktop-4.13.6.tar.bz2 : f1f65cf31957e4cedd7b11d802f287d7429140c57fc3db7009578cca8398b990
+license    : GPL-2.0-or-later
+component  : desktop.xfce.core
+summary    : The Desktop Manager manages the desktop of Xfce
+description: |
+    The Desktop Manager manages the desktop of Xfce
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(libwnck-3.0)
+    - pkgconfig(exo-2)
+    - pkgconfig(libnotify)
+    - pkgconfig(garcon-gtk3-1)
+    - thunar
+setup      : |
+    %configure --enable-thunarx
+build      : |
+    %make
+install    : |
+    %make_install

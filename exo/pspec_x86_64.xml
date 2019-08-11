@@ -1,0 +1,288 @@
+<PISI>
+    <Source>
+        <Name>exo</Name>
+        <Packager>
+            <Name>thom</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>desktop.xfce.library</PartOf>
+        <Summary xml:lang="en">Exo is a support library used in the Xfce desktop</Summary>
+        <Description xml:lang="en">Exo is a support library used in the Xfce desktop
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>exo</Name>
+        <Summary xml:lang="en">Exo is a support library used in the Xfce desktop</Summary>
+        <Description xml:lang="en">Exo is a support library used in the Xfce desktop
+</Description>
+        <PartOf>desktop.xfce.library</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/xfce4/helpers.rc</Path>
+            <Path fileType="executable">/usr/bin/exo-csource</Path>
+            <Path fileType="executable">/usr/bin/exo-desktop-item-edit</Path>
+            <Path fileType="executable">/usr/bin/exo-open</Path>
+            <Path fileType="executable">/usr/bin/exo-preferred-applications</Path>
+            <Path fileType="library">/usr/lib64/libexo-1.so.0</Path>
+            <Path fileType="library">/usr/lib64/libexo-1.so.0.1.0</Path>
+            <Path fileType="library">/usr/lib64/libexo-2.so.0</Path>
+            <Path fileType="library">/usr/lib64/libexo-2.so.0.1.0</Path>
+            <Path fileType="library">/usr/lib64/xfce4/exo-2/exo-helper-2</Path>
+            <Path fileType="library">/usr/lib64/xfce4/exo/exo-compose-mail</Path>
+            <Path fileType="data">/usr/share/applications/exo-file-manager.desktop</Path>
+            <Path fileType="data">/usr/share/applications/exo-mail-reader.desktop</Path>
+            <Path fileType="data">/usr/share/applications/exo-preferred-applications.desktop</Path>
+            <Path fileType="data">/usr/share/applications/exo-terminal-emulator.desktop</Path>
+            <Path fileType="data">/usr/share/applications/exo-web-browser.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/preferences-desktop-default-applications.png</Path>
+            <Path fileType="localedata">/usr/share/locale/am/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/be/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bn/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_AU/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hy/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hy_AM/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ie/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/is/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/kk/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/kn/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nn/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pa/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/si/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/te/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/th/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ur/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ur_PK/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/exo-1.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/exo-csource.1</Path>
+            <Path fileType="man">/usr/share/man/man1/exo-open.1</Path>
+            <Path fileType="data">/usr/share/pixmaps/exo/exo-thumbnail-frame.png</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/Thunar.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/aterm.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/balsa.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/brave.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/caja.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/chromium.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/debian-sensible-browser.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/debian-x-terminal-emulator.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/dillo.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/encompass.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/epiphany.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/eterm.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/evolution.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/firefox.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/galeon.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/geary.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/gnome-terminal.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/google-chrome.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/icecat.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/icedove.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/iceweasel.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/jumanji.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/kmail.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/konqueror.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/links.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/lynx.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/midori.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/mozilla-browser.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/mozilla-mailer.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/mutt.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/nautilus.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/netscape-navigator.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/nxterm.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/opera-browser.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/pcmanfm-qt.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/pcmanfm.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/qterminal.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/qtfm.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/qupzilla.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/rodent.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/rox-filer.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/sakura.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/surf.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/sylpheed-claws.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/sylpheed.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/terminator.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/thunderbird.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/urxvt.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/vimprobable2.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/w3m.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/xfce4-terminal.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/xfe.desktop</Path>
+            <Path fileType="data">/usr/share/xfce4/helpers/xterm.desktop</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>exo-devel</Name>
+        <Summary xml:lang="en">Development files for exo</Summary>
+        <Description xml:lang="en">Exo is a support library used in the Xfce desktop
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">exo</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-binding.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-cell-renderer-ellipsized-text.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-cell-renderer-icon.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-config.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-enum-types.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-execute.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-gdk-pixbuf-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-gobject-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-gtk-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-icon-bar.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-icon-chooser-dialog.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-icon-view.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-job.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-simple-job.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-string.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-toolbars-editor-dialog.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-toolbars-editor.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-toolbars-model.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-toolbars-view.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-tree-view.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-utils.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-wrap-table.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo-xsession-client.h</Path>
+            <Path fileType="header">/usr/include/exo-1/exo/exo.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-binding.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-cell-renderer-icon.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-config.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-enum-types.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-execute.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-gdk-pixbuf-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-gobject-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-gtk-extensions.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-icon-chooser-dialog.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-icon-chooser-model.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-icon-view.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-job.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-simple-job.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-string.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-thumbnail-preview.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-thumbnail.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-toolbars-model.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-tree-view.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo-utils.h</Path>
+            <Path fileType="header">/usr/include/exo-2/exo/exo.h</Path>
+            <Path fileType="library">/usr/lib64/libexo-1.so</Path>
+            <Path fileType="library">/usr/lib64/libexo-2.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/exo-1.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/exo-2.pc</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>exo-docs</Name>
+        <Summary xml:lang="en">Documentation for exo</Summary>
+        <Description xml:lang="en">Exo is a support library used in the Xfce desktop
+</Description>
+        <PartOf>programming.docs</PartOf>
+        <Files>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoCellRendererEllipsizedText.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoCellRendererIcon.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoIconBar.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoIconChooserDialog.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoIconView.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoJob.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoSimpleJob.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoToolbarsEditor.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoToolbarsEditorDialog.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoToolbarsModel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoToolbarsView.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoTreeView.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoWrapTable.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ExoXsessionClient.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ch01.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ch02.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-1.devhelp2</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Binding-Properties-Functions.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Executing-Applications.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Extensions-to-GObject.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Extensions-to-Gtk.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Extensions-to-gdk-pixbuf.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Miscellaneous-Utility-Functions.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-String-Utility-Functions.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-Version-Information.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-cell-renderers.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-csource.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-extensions.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-gtk-file-chooser-add-thumbnail-preview.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-icon-chooser-dialog.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-jobs.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-miscelleanous.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-overview.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-toolbars-editor-dialog.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-toolbars-editor.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-toolbars-view.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-toolbars.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-tools.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-widgets.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/exo-wrap-table.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/home.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/index.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/ix14.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/left-insensitive.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/left.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/right-insensitive.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/right.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/style.css</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/up-insensitive.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/exo-1/up.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-11</Date>
+            <Version>0.12.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>thom</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,217 @@
+<PISI>
+    <Package>
+        <Name>xfconf-devel</Name>
+        <Summary xml:lang="en">Development files for xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency release="1">xfconf</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfconf-0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>18213</InstalledSize>
+        <PackageSize>4434</PackageSize>
+        <PackageHash>68fb16ab04b9ba93b4f565b2ca676ef35e74780a</PackageHash>
+        <PackageURI>xfconf-devel-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util-docs</Name>
+        <Summary xml:lang="en">Documentation for libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>234814</InstalledSize>
+        <PackageSize>25889</PackageSize>
+        <PackageHash>35d4a64dad7fd26d0a45b1acd68be7029ec47fe1</PackageHash>
+        <PackageURI>libxfce4util-docs-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util</Name>
+        <Summary xml:lang="en">Libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>desktop.library</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>557799</InstalledSize>
+        <PackageSize>89984</PackageSize>
+        <PackageHash>c8e533c1cd79ab4b09f1eaccdfd5a76971c292f8</PackageHash>
+        <PackageURI>libxfce4util-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf</Name>
+        <Summary xml:lang="en">xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>desktop</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="54">glib2</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>787571</InstalledSize>
+        <PackageSize>149507</PackageSize>
+        <PackageHash>9145377844565a31b8ee48734c0696e171c9c7c2</PackageHash>
+        <PackageURI>xfconf-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4util-devel</Name>
+        <Summary xml:lang="en">Development files for libxfce4util</Summary>
+        <Description xml:lang="en">Libxfce4util</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="54">glib2-devel</Dependency>
+            <Dependency release="1">libxfce4util</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4util-1.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>38353</InstalledSize>
+        <PackageSize>7460</PackageSize>
+        <PackageHash>1eec0b822888f06cf76b3f5392a6100f8af8805c</PackageHash>
+        <PackageURI>libxfce4util-devel-4.13.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4util</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf-docs</Name>
+        <Summary xml:lang="en">Documentation for xfconf</Summary>
+        <Description xml:lang="en">xfconf</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2019-08-10</Date>
+                <Version>4.13.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>285308</InstalledSize>
+        <PackageSize>25235</PackageSize>
+        <PackageHash>07bb611bbcf3fd912d3dba62a2d6654330b24c33</PackageHash>
+        <PackageURI>xfconf-docs-4.13.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>thom</Name>
+                <Email>no.email.set.in.config</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>

@@ -1,0 +1,24 @@
+name       : xfce4-pulseaudio-plugin
+version    : 0.4.1
+release    : 1
+source     :
+    - http://archive.xfce.org/src/panel-plugins/xfce4-pulseaudio-plugin/0.4/xfce4-pulseaudio-plugin-0.4.1.tar.bz2 : 6ca88314dbac3e24c0e1bfc593fad6edb66319766be62e8256c81b0314f049f0
+license    : GPL-2.0-or-later
+component  : desktop.xfce.plugins
+summary    :  Pulseaudio plugin for Xfce4 panel
+description: |
+     Pulseaudio plugin for Xfce4 panel
+builddeps  :
+    - pavucontrol
+    - pkgconfig(dbus-glib-1)
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(libxfce4panel-2.0)
+    - pkgconfig(libpulse-mainloop-glib)
+    - pkgconfig(libnotify)
+    - pkgconfig(keybinder-3.0)
+setup      : |
+    %configure --enable-libnotify --enable-keybinder
+build      : |
+    %make
+install    : |
+    %make_install

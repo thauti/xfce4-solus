@@ -1,0 +1,19 @@
+name       : thunar-volman
+version    : 0.9.4
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/thunar-volman-0.9.4.tar.bz2 : c050f80a976fbb5f862c9c99857c761402ddd7980dc6f00d30002903f72abcb6
+license    : GPL-2.0-or-later
+component  : xfce
+summary    : Automatic management of removeable devices in Thunar.
+description: |
+    Automatic management of removeable devices in Thunar.
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(exo-2)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

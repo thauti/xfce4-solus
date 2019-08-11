@@ -1,0 +1,22 @@
+name       : xfwm4
+version    : 4.13.4
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/xfwm4-4.13.4.tar.bz2 : 31940e0e1d821d839b9ef1462bb1ca36e7935cd7589e4418993e3901ca6c0ec5
+license    : GPL-2.0-or-later
+component  : desktop.xfce.core
+summary    : Xfwm4 is the window manager for Xfce.
+description: |
+    Xfwm4 is the window manager for Xfce.
+builddeps  :
+    - pkgconfig(xrender)
+    - pkgconfig(presentproto)
+    - pkgconfig(xcomposite)
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(libwnck-3.0)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

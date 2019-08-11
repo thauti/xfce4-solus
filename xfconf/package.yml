@@ -1,0 +1,19 @@
+name       : xfconf
+version    : 4.13.8
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/xfconf-4.13.8.tar.bz2 : 55e2441c4ff78a7006fabb59647f7bc1f190cbb82327b93ba063ff624a896591
+license    : GPL-2.0-or-later # CHECK ME
+component  : desktop.xfce.utils
+summary    :  Xfconf is the configuration storage system for Xfce.
+description: |
+    Xfconf is the configuration storage system for Xfce.conf
+builddeps  :
+    - pkgconfig(libxfce4util-1.0)
+    - pkgconfig(dbus-glib-1)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install

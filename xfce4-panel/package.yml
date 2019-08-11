@@ -1,0 +1,22 @@
+name       : xfce4-panel
+version    : 4.13.7
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/xfce4-panel-4.13.7.tar.bz2 : 888e30417342b05d566f5ef5a85791b05117fadbbc2f00bc5f29a30d6ba42ba9
+license    : GPL-2.0-or-later
+component  : desktop.xfce.core
+summary    : The Xfce4 Panel package contains the Xfce4 Panel.
+description: |
+     The Xfce4 Panel package contains the Xfce4 Panel.
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(gio-unix-2.0)
+    - pkgconfig(exo-2)
+    - pkgconfig(garcon-gtk3-1)
+    - pkgconfig(libwnck-3.0)
+setup      : |
+    %configure --disable-static --enable-gtk3 --enable-gio-unix
+build      : |
+    %make
+install    : |
+    %make_install

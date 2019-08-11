@@ -1,0 +1,19 @@
+name       : xfce4-taskmanager
+version    : 1.2.2
+release    : 1
+source     :
+    - http://archive.xfce.org/src/apps/xfce4-taskmanager/1.2/xfce4-taskmanager-1.2.2.tar.bz2 : e49a61c819a4fd9286a65ae61605984f327c8b26cf939289f644e656bfa20e13
+license    : GPL-2.0-or-later
+component  : desktop.xfce.apps
+summary    : Easy to use task manager
+description: |
+    Process manager for the Xfce4 Desktop 
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(xmu)
+setup      : |
+    %configure --enable-gtk3
+build      : |
+    %make
+install    : |
+    %make_install

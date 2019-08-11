@@ -1,0 +1,27 @@
+name       : tumbler
+version    : 0.2.6
+release    : 1
+source     :
+    - http://archive.xfce.org/xfce/4.14pre3/src/tumbler-0.2.6.tar.bz2 : 74d21781fb0c1e8c11ac803cc5afb469893a0b220721fdc25660c54891a10fa0
+license    : GPL-2.0-or-later
+component  : xfce.desktop.utils
+summary    :  The Tumbler package contains a D-Bus thumbnailing service based on the thumbnail management D-Bus specification.
+description: |
+     The Tumbler package contains a D-Bus thumbnailing service based on the thumbnail management D-Bus specification.
+builddeps  :
+    - pkgconfig(glib-2.0)
+    - pkgconfig(gio-2.0)
+    - pkgconfig(gio-unix-2.0)
+    - pkgconfig(gmodule-2.0)
+    - pkgconfig(gthread-2.0)
+    - pkgconfig(gdk-pixbuf-2.0)
+    - pkgconfig(libffmpegthumbnailer)
+    - pkgconfig(freetype2)
+    - pkgconfig(poppler-glib)
+    - pkgconfig(libgsf-1)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

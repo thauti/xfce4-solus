@@ -1,0 +1,19 @@
+name       : iceauth
+version    : 1.0.8
+release    : 1
+source     :
+    - https://www.x.org/releases/individual/app/iceauth-1.0.8.tar.gz : 25b94613173a6dd28d7b18d9479194aae3d9392f5a4a072f499bd48d3ca00740
+license    : GPL-2.0-or-later
+component  : desktop.xfce.utils
+summary    : ICE authority file utility 
+description: |
+    ICE authority file utility 
+builddeps  :
+    - pkgconfig(xproto)
+    - pkgconfig(ice)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

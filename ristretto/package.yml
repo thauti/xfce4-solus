@@ -1,0 +1,21 @@
+name       : ristretto
+version    : 0.10.0
+release    : 1
+source     :
+    - http://archive.xfce.org/src/apps/ristretto/0.10/ristretto-0.10.0.tar.bz2 : 16225dd74245eb6e0f82b9c72c6112f161bb8d8b11f3fc77277b7bc3432d4769
+license    : GPL-2.0-or-later
+component  : desktop.xfce.apps
+summary    : Ristretto is a fast and lightweight image viewer for the Xfce desktop.
+description: |
+    Ristretto is a fast and lightweight image viewer for the Xfce desktop.
+builddeps  :
+    - pkgconfig(libxfce4ui-2)
+    - pkgconfig(libexif)
+    - pkgconfig(librsvg-2.0)
+    - pkgconfig(tumbler-1)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
