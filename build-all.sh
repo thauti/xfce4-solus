@@ -30,5 +30,6 @@ echo "Building Xfce4 packages ..."
 (cd xfce4-settings  && make local && sudo cp -f *.eopkg /var/lib/solbuild/local/)
 (cd xfce4-taskmanager  && make local && sudo cp -f *.eopkg /var/lib/solbuild/local/)
 (cd xfce4-terminal  && make local && sudo cp -f *.eopkg /var/lib/solbuild/local/)
+(cd mousepad  && make local && sudo cp -f *.eopkg /var/lib/solbuild/local/)
 
 echo "Done"

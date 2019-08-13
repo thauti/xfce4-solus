@@ -1,0 +1,19 @@
+name       : mousepad
+version    : 0.4.2
+release    : 1
+source     :
+    - http://archive.xfce.org/src/apps/mousepad/0.4/mousepad-0.4.2.tar.bz2 : 84c02adfca7f8b33b9466a306ded72fb9f38f93c9edb78660343854c4a3aded7
+license    : GPL-2.0-or-later # CHECK ME
+component  : desktop.xfce.apps
+summary    : Simple text editor for Xfce
+description: |
+    Simple text editor for Xfce
+builddeps  :
+    - pkgconfig(libxfconf-0)
+    - pkgconfig(gtksourceview-3.0)
+setup      : |
+    %configure --disable-static --enable-gtk3
+build      : |
+    %make
+install    : |
+    %make_install
