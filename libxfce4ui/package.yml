@@ -1,8 +1,8 @@
 name       : libxfce4ui
-version    : 4.13.7
-release    : 1
+version    : 4.14.1
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/libxfce4ui-4.13.7.tar.bz2 : b932359b47a5f8bdeae4441728abd19980c1a77f9912bc6cf8a50028b0687b08
+    - http://archive.xfce.org/xfce/4.14/src/libxfce4ui-4.14.1.tar.bz2 : c449075eaeae4d1138d22eeed3d2ad7032b87fb8878eada9b770325bed87f2da
 license    : GPL-2.0-or-later
 component  : desktop.xfce.core
 summary    : Commonly used Xfce widgets among Xfce applications

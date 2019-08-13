@@ -1,8 +1,8 @@
 name       : exo
-version    : 0.12.7
-release    : 1
+version    : 0.12.8
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/exo-0.12.7.tar.bz2 : 78d10943b52eb50ce76224ae27c025fb174d39895b31723db90a869d6eeaf1da
+    - http://archive.xfce.org/xfce/4.14/src/exo-0.12.8.tar.bz2 : 3400a2e64aa41ede25bedaca4909bde7ea4f8698d9598d1b80f02a40ac89fcde
 license    : GPL-2.0-or-later
 component  : desktop.xfce.library
 summary    : Exo is a support library used in the Xfce desktop

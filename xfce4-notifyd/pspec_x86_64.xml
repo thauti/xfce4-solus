@@ -2,8 +2,8 @@
     <Source>
         <Name>xfce4-notifyd</Name>
         <Packager>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.xfce.core</PartOf>
@@ -95,11 +95,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2019-08-11</Date>
+            <Date>2019-08-13</Date>
             <Version>0.4.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Update>
     </History>
 </PISI>

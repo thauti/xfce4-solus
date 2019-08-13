@@ -1,8 +1,8 @@
 name       : xfdesktop
-version    : 4.13.6
-release    : 1
+version    : 4.14.1
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/xfdesktop-4.13.6.tar.bz2 : f1f65cf31957e4cedd7b11d802f287d7429140c57fc3db7009578cca8398b990
+    - http://archive.xfce.org/xfce/4.14/src/xfdesktop-4.14.1.tar.bz2 : f705a016246ec54ab0c688d1a0577f6c2b45a446690aa8d9e5a7ac23efebf882
 license    : GPL-2.0-or-later
 component  : desktop.xfce.core
 summary    : The Desktop Manager manages the desktop of Xfce

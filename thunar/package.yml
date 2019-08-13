@@ -1,8 +1,8 @@
 name       : thunar
-version    : 1.8.8
-release    : 1
+version    : 1.8.9
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/Thunar-1.8.8.tar.bz2 : a03761de4a43c36b9daa6029e6e3263a23c8ce429d78a9f9156ab48efdb2800c
+    - http://archive.xfce.org/xfce/4.14/src/Thunar-1.8.9.tar.bz2 : 7a758e7ac03501c520c304f8845353315c954d429b17d591b8eea8b14f1350b9
 license    : GPL-2.0-or-later
 component  : desktop.xfce.apps
 summary    : Thunar is a modern file manager for the Xfce Desktop Environment

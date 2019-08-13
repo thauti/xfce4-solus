@@ -1,13 +1,13 @@
 name       : xfce4-panel
-version    : 4.13.7
-release    : 1
+version    : 4.14.0
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/xfce4-panel-4.13.7.tar.bz2 : 888e30417342b05d566f5ef5a85791b05117fadbbc2f00bc5f29a30d6ba42ba9
+    - http://archive.xfce.org/xfce/4.14/src/xfce4-panel-4.14.0.tar.bz2 : d5f8f3bd7e142139987e5e62cda26135a424baabb5e47aa0c23b4169d0a66ef4
 license    : GPL-2.0-or-later
 component  : desktop.xfce.core
 summary    : The Xfce4 Panel package contains the Xfce4 Panel.
 description: |
-     The Xfce4 Panel package contains the Xfce4 Panel.
+    The Xfce4 Panel package contains the Xfce4 Panel.
 builddeps  :
     - pkgconfig(libxfce4ui-2)
     - pkgconfig(gio-unix-2.0)

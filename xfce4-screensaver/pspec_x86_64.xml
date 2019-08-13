@@ -2,8 +2,8 @@
     <Source>
         <Name>xfce4-screensaver</Name>
         <Packager>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.xfce.utils</PartOf>
@@ -66,11 +66,11 @@ secure defaults and be well integrated with the Xfce desktop.
     </Package>
     <History>
         <Update release="1">
-            <Date>2019-08-11</Date>
+            <Date>2019-08-13</Date>
             <Version>0.1.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Update>
     </History>
 </PISI>

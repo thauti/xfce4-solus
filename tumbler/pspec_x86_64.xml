@@ -2,8 +2,8 @@
     <Source>
         <Name>tumbler</Name>
         <Packager>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>xfce.desktop.utils</PartOf>
@@ -96,7 +96,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">tumbler</Dependency>
+            <Dependency release="2">tumbler</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/tumbler-1/tumbler/tumbler-abstract-thumbnailer.h</Path>
@@ -157,12 +157,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2019-08-11</Date>
-            <Version>0.2.6</Version>
+        <Update release="2">
+            <Date>2019-08-13</Date>
+            <Version>0.2.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Update>
     </History>
 </PISI>

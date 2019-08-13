@@ -1,11 +1,11 @@
 name       : xfconf
-version    : 4.13.8
-release    : 1
+version    : 4.14.1
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/xfconf-4.13.8.tar.bz2 : 55e2441c4ff78a7006fabb59647f7bc1f190cbb82327b93ba063ff624a896591
+    - http://archive.xfce.org/xfce/4.14/src/xfconf-4.14.1.tar.bz2 : b893e0a329aee00902fec2f0509f56916c9dcc7844e1b1f9e3c7399458290d59
 license    : GPL-2.0-or-later # CHECK ME
 component  : desktop.xfce.utils
-summary    :  Xfconf is the configuration storage system for Xfce.
+summary    : Xfconf is the configuration storage system for Xfce.
 description: |
     Xfconf is the configuration storage system for Xfce.conf
 builddeps  :

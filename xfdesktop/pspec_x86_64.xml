@@ -2,8 +2,8 @@
     <Source>
         <Name>xfdesktop</Name>
         <Packager>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.xfce.core</PartOf>
@@ -23,6 +23,7 @@
             <Path fileType="executable">/usr/bin/xfdesktop-settings</Path>
             <Path fileType="data">/usr/share/applications/xfce-backdrop-settings.desktop</Path>
             <Path fileType="data">/usr/share/backgrounds/xfce/xfce-blue.jpg</Path>
+            <Path fileType="data">/usr/share/backgrounds/xfce/xfce-stripes.png</Path>
             <Path fileType="data">/usr/share/backgrounds/xfce/xfce-teal.jpg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/xfce4-backdrop.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/xfce4-menueditor.png</Path>
@@ -105,12 +106,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2019-08-11</Date>
-            <Version>4.13.6</Version>
+        <Update release="2">
+            <Date>2019-08-13</Date>
+            <Version>4.14.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>thom</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>thauti</Name>
+            <Email>thauti@users.noreply.github.com</Email>
         </Update>
     </History>
 </PISI>

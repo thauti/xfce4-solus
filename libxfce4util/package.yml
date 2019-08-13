@@ -1,13 +1,12 @@
 name       : libxfce4util
-version    : 4.13.5
-release    : 1
+version    : 4.14.0
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/libxfce4util-4.13.5.tar.bz2 : 9bbb095252775a6457e927aa2580b84efd1288446fcb54a046b5112ac7849035
+    - http://archive.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2 : 32ad79b7992ec3fd863e8ff2f03eebda8740363ef9d7d910a35963ac1c1a6324
 license    : GPL-2.0-or-later
 component  : desktop.xfce.core
-summary    : The libxfce4util package is a basic utility library for the Xfce desktop environment. 
-description: |
-     The libxfce4util package is a basic utility library for the Xfce desktop environment. 
+summary    : The libxfce4util package is a basic utility library for the Xfce desktop environment.
+description: The libxfce4util package is a basic utility library for the Xfce desktop environment.
 builddeps  :
     - glib2
 setup      : |

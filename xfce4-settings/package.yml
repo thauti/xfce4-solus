@@ -1,18 +1,18 @@
 name       : xfce4-settings
-version    : 4.13.8
-release    : 1
+version    : 4.14.0
+release    : 2
 source     :
-    - http://archive.xfce.org/xfce/4.14pre3/src/xfce4-settings-4.13.8.tar.bz2 : 34ad226860e4cd8c13f6f0dc88e68a37173823c5a4c96ba9bfa89f869df086e7
+    - http://archive.xfce.org/xfce/4.14/src/xfce4-settings-4.14.0.tar.bz2 : e03040d623abda0222ad04f226582277a1936507ddfa927ec8e87927debc113c
 license    : GPL-2.0-or-later
 component  : desktop.xfce.utils
 summary    : The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.
 description: |
-     The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.
+    The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.
 builddeps  :
     - pkgconfig(libxfce4ui-2)
     - pkgconfig(exo-2)
     - pkgconfig(garcon-gtk3-1)
-rundeps:
+rundeps    :
     - plata-theme
     - papirus-icon-theme
 setup      : |
