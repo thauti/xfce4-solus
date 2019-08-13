@@ -2,7 +2,7 @@
 Xfce packages for Solus
 
 ### TO DO
-- Customization
+- Customization (Xfce panel, xfce terminal)
 - Wiki/Tutorials
 - Xfce themes ?
 - More applets/plugins
