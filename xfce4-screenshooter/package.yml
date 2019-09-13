@@ -1,11 +1,11 @@
 name       : xfce4-screenshooter
-version    : 1.9.5
-release    : 1
+version    : 1.9.6
+release    : 2
 source     :
-    - http://archive.xfce.org/src/apps/xfce4-screenshooter/1.9/xfce4-screenshooter-1.9.5.tar.bz2 : bf35b5432cb920987c6d7ff193600e5dd4d73422b6aa02b4ec5288744053b38c
+    - http://archive.xfce.org/src/apps/xfce4-screenshooter/1.9/xfce4-screenshooter-1.9.6.tar.bz2 : 88c174ce687d1f7ba5470d6ab5784d33dc215f8f220211e892e268189dbea658
 license    : GPL-2.0-or-later
 component  : desktop.xfce.apps
-summary    : This application allows you to capture the entire screen, the active window or a selected region. 
+summary    : This application allows you to capture the entire screen, the active window or a selected region.
 description: |
     The Xfce4-screenshooter is an application that can be used to take snapshots of your desktop screen.
 builddeps  :
